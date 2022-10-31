@@ -1,5 +1,5 @@
 import os
-from api.db_connection.db_table import session, UserTable, WalletTable
+from backend.api.db_connection.db_table import session, UserTable, WalletTable
 
 listener_api_url = os.getenv('LISTENER_API_URL')
 verify_value = bool(os.getenv('verify_value'))

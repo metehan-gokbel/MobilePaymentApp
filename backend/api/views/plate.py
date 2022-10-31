@@ -1,6 +1,6 @@
 from flask import jsonify, Blueprint, request, abort
 from flask_jwt_extended import jwt_required
-from api.models.plate import Plate
+from backend.api.models.plate import Plate
 
 bp = Blueprint("plate", __name__)
 

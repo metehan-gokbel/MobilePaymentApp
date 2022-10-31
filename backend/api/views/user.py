@@ -2,7 +2,7 @@ from flask import jsonify, Blueprint, request, abort
 from flask_jwt_extended import jwt_required
 from ..models.wallet import Wallet
 from ..models.user import User
-from api.controllers import user_controller
+from ..controllers import user_controller
 
 bp = Blueprint("user", __name__)
 
